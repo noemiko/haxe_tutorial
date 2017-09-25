@@ -8,7 +8,7 @@ import flixel.ui.FlxButton;
 
 class PlayState extends FlxState
 {
-	 private var _btnPlay:FlxButton;
+	private var _btnPlay:FlxButton;
 	override public function create():Void
 	{
 		super.create();

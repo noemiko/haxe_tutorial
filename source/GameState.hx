@@ -6,11 +6,14 @@ import flixel.ui.FlxButton;
 
 class GameState extends FlxState
 {   
-    private var _btnPlay:FlxButton;
+    private var _player:Player;
 
     override public function create():Void
     {
         super.create();
+        
+        _player = new Player(20, 20);
+        add(_player);
     }
 
 }
